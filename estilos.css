@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/01/2023, 07:37:19 PM
+    Author     : Hiram
+*/
+#principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+}
+.derecha{
+    background: blue;
+    padding: 20px;
+}
+.encabezado{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Roboto, 'Open sans';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.imagenes{
+    text-align: center;
+}
+.imagen{
+    width: 1200px;
+    margin: auto;
+}
+.descripcion{
+    font-family: 'Segoe UI', Roboto, 'Open sans';
+    font-weight: bold;
+    font-size: 30px;
+}
+.izquierda{
+    background: aqua;
+    padding: 20px;
+    display: grid;
+}
+.texto{
+    font-size: large;
+    font-weight: bold;
+}
+#nombreId{
+    padding: 20px;
+    font-size: 20px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 40%;
+    justify-content: center;
+}
+#apellidoId{
+    padding: 20px;
+    font-size: 20px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 40%;
+    justify-content: center;
+}
+#contactoId{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 40%;
+    justify-content: center;
+}
+.hobies{
+    font-weight: bold;
+    font-size: 20px;
+}
+.series{
+    font-weight: bold;
+    font-size: 20px;
+}
+.botones{
+    padding-top: 20px;
+}
+.btnEnviar{
+    padding: 15px;
+    margin: 0px auto;
+    background: green;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btnBorrar{
+    padding: 15px;
+    margin: 0px auto;
+    background: red;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
