@@ -9,18 +9,19 @@ and open the template in the editor.
         <title>Pagina de Aterrizaje</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            Hazte Conocer
-        </header>
         <div>
             <main id="principal">
                 <div class='derecha'>
-                    <div>
+                    <div class="encabezado">
+                        Hazte Conocer
+                    </div>
+                    <div class="imagenes">
                         <img src="imagenes/conocete.jpg" class="imagen"/>
                     </div>
-                    <div>
+                    <div class="descripcion">
                         En este formulario excribe informacion personal acerca de ti,
                         una vez enviada sera publicada en el sitio web donde todo el 
                         mundo sabra mas acerca de ti.
@@ -31,23 +32,23 @@ and open the template in the editor.
                     method="post" enctype="text/plain">
                         <div class="formulario">
                             <div class="cuadro1">
-                                <label for="nombreId">Nombre:</label>
+                                <label for="nombreId" class="texto">Nombre</label>
                                 <input type="text" id="nombreId" name="nombre"  maxlength="40" required>
                             </div>
                             <div class="cuadro1">
-                                <label for="apellidoId">Apellido:</label>
+                                <label for="apellidoId" class="texto">Apellido</label>
                                 <input type="text" id="apellidoId" name="nombre"  maxlength="40" required>
                             </div>
-                            <div class="cuadro1">
+                            <div class="hobies">
                                 <p>Tus Hobbies</p>
                                 <textarea name="hobiies" rows="5" cols="150"></textarea>
                             </div>
-                            <div class="cuadro1">
+                            <div class="series">
                                 <p>Series o Peliculas Favoritas</p>
                                 <textarea name="seriePeliculas" rows="5" cols="150"></textarea>
                             </div>
                             <div class="cuadro1">
-                                <label for="contactoId">Contacto:</label>
+                                <label for="contactoId" class="texto">Contacto</label>
                                 <input type="text" id="contactoId" name="nombre"  maxlength="40" required>
                             </div>
                             <div class="botones">
