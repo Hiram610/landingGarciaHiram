@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pagina de Aterrizaje</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            Hazte Conocer
+        </header>
+        <div>
+            <main id="principal">
+                <div class='derecha'>
+                    <div>
+                        <img src="imagenes/conocete.jpg" class="imagen"/>
+                    </div>
+                    <div>
+                        En este formulario excribe informacion personal acerca de ti,
+                        una vez enviada sera publicada en el sitio web donde todo el 
+                        mundo sabra mas acerca de ti.
+                    </div>
+                </div>
+                <div class="izquierda">
+                    <form action="mailto: hiram.garcia216629@potros.itson.edu.mx?subject=Encuesta"
+                    method="post" enctype="text/plain">
+                        <div class="formulario">
+                            <div class="cuadro1">
+                                <label for="nombreId">Nombre:</label>
+                                <input type="text" id="nombreId" name="nombre"  maxlength="40" required>
+                            </div>
+                            <div class="cuadro1">
+                                <label for="apellidoId">Apellido:</label>
+                                <input type="text" id="apellidoId" name="nombre"  maxlength="40" required>
+                            </div>
+                            <div class="cuadro1">
+                                <p>Tus Hobbies</p>
+                                <textarea name="hobiies" rows="5" cols="150"></textarea>
+                            </div>
+                            <div class="cuadro1">
+                                <p>Series o Peliculas Favoritas</p>
+                                <textarea name="seriePeliculas" rows="5" cols="150"></textarea>
+                            </div>
+                            <div class="cuadro1">
+                                <label for="contactoId">Contacto:</label>
+                                <input type="text" id="contactoId" name="nombre"  maxlength="40" required>
+                            </div>
+                            <div class="botones">
+                                <input class="btnEnviar" type="submit" name="boton" value="Enviar"/>
+                                <input class="btnBorrar" type="reset" value="Borrar"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
